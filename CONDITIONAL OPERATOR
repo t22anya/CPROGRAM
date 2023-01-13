@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("\n Enter any character: ");
+    scanf("%c", &ch);
+    (ch>='a' && ch<='z'||ch>='A' && ch<='Z') ? printf("%c is Alphabit",ch) :
+        (ch>='0'&&ch<='9' ) ? printf("%c is digit",ch) : printf("%c is Special Character",ch);
+    return 0;
+}
