@@ -6,7 +6,6 @@ int main()
     long long fact, sum;
     printf("Enter upper limit: ");
     scanf("%d", &end);
-
     printf("All Strong numbers between 1 to %d are:\n", end);
     for(i=1; i<=end; i++)
     {
